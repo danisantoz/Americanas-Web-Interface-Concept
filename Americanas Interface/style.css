@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e60014;
+  color: #fff;
+  padding: 10px 40px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-box {
+  display: flex;
+  width: 50%;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-box button {
+  background-color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.user-actions a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #fff5f5;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e60014;
+  font-weight: bold;
+}
+
+/* --- BANNER PRINCIPAL --- */
+.banner {
+  background: linear-gradient(180deg, #e60014, #b00010);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.banner-content p {
+  font-size: 24px;
+  margin: 10px 0 20px 0;
+}
+
+.banner-content strong {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.discount {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.discount span {
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+  line-height: 1;
+}
+
+.banner button {
+  background-color: #fff;
+  color: #e60014;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.banner button:hover {
+  background-color: #ffeded;
+}
+
+/* --- ÍCONES PROMOCIONAIS --- */
+.promo-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+  background-color: #fff;
+}
+
+.promo-icons div {
+  background-color: #e60014;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.promo-icons div:hover {
+  background-color: #b00010;
+}
