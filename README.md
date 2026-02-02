@@ -10,5 +10,4 @@ Não se trata de uma cópia funcional do site oficial, mas sim de um **estudo de
 ### ⚠️ Aviso
 Este é um projeto **educacional**, desenvolvido exclusivamente para **estudos e prática de frontend e UI/UX**, sem qualquer vínculo com a empresa Americanas.
 
-📌 Status
-Finalizado
+
